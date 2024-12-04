@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: "inter";
+  background-color: #eeeef0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  width: 684px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.Header {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+.bawahHeader {
+  font-size: 14px;
+  line-height: 200%;
+  font-weight: medium;
+  color: #7b7b7b;
+  margin-top: -18px;
+}
+
+.theButton {
+  background-color: #5016ff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.theButton:hover {
+  opacity: 80%;
+}
+
+.inputText {
+  width: 88%;
+  font-size: 14px;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  flex: 1;
+  padding: 12px;
+  position: flex;
+  color: black;
+}
+
+.secondary {
+  background-color: #eeeef0;
+  width: 475px;
+  margin-top: 30px;
+  padding: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: flex;
+}
+
+.listTasks {
+  width: 100%;
+  list-style-type: none;
+  margin-top: -80px;
+  margin-left: -100px;
+}
+
+.listTasks li {
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dedede;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.listTasks li span {
+  flex: 1;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.listTasks li.completed {
+  color: #5016ff;
+}
+
+.listTasks li input[type="checkbox"] {
+  margin: left;
+  text-align: left;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 1px solid #dedede;
+}
+
+.listTasks li button {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.listTasks li button:hover {
+  opacity: 90%;
+}
